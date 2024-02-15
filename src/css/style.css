@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background: rgb(255, 216, 69);
+   transition: all 2s ease;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+
+img {
+   display: inline-block;
+}
+
+span {
+   display: inline-block;
+}
+
+button {
+   cursor: pointer;
+}
+
+.container {
+   width: 1000px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+/*============================= HEADER START =============================*/
+
+.header {
+   padding-top: 50px;
+   margin-bottom: 100px;
+}
+
+.header-box {
+   display: flex;
+   align-items: start;
+   justify-content: center;
+}
+
+.logo {
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+
+.logo_heart {
+   cursor: pointer;
+}
+
+.btn-moon {
+   background-color: transparent;
+   border: none;
+   padding: 5px;
+   font-size: 30px;
+   transition: all 1s ease;
+}
+
+.btn-sun {
+   background-color: transparent;
+   border: none;
+   padding: 5px;
+   font-size: 14px;
+   transition: all 1s ease;
+}
+
+.header-bottom {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0 35px;
+}
+
+.header-select {
+   width: 260px;
+   padding: 16px 81px;
+   box-sizing: border-box;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 15px;
+   background: rgb(255, 255, 255);
+   cursor: pointer;
+}
+
+.header-select select {
+   width: 100px;
+   background: white;
+   border: none;
+   outline: none;
+   color: black;
+   color: rgb(0, 0, 0);
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+
+.header-input {
+   width: 310px;
+   padding: 21px 29px;
+   box-sizing: border-box;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 15px;
+   background: rgb(255, 255, 255);
+   outline: none;
+}
+
+.header-input::placeholder {
+   color: rgb(0, 0, 0);
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+
+.header_search-btn {
+   background: transparent;
+   border: none;
+   position: absolute;
+   left: 421px;
+   top: 19px;
+}
+
+.header-btn {
+   width: 200px;
+   height: 64px;
+   padding: 0 64px;
+   box-sizing: border-box;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 15px;
+   background: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   text-align: left;
+   transition: all 1s ease;
+}
+
+.header-btn:hover {
+   color: white;
+   background-color: darkblue;
+}
+
+/*============================= HEADER END =============================*/
+
+/*============================= MAIN START =============================*/
+
+.main-list {
+   margin: 0 auto;
+   width: 1170px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.main-list li {
+   position: relative;
+   box-sizing: border-box;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 20px;
+   background: rgb(255, 255, 255);
+   padding: 30px 0 37px 0;
+   margin: 0 5.8px 20px 5.8px;
+}
+
+.main-list li img {
+   width: 157px;
+   height: 157px;
+   margin: 0 60px 60px 60px;
+}
+
+.main-list li hr {
+   position: absolute;
+   left: 0;
+   width: 278px;
+   height: 2px;
+   background: rgb(0, 0, 0);
+   border: none;
+}
+
+.main-list li div {
+   padding: 20px 25px 37px 25px;
+   position: relative;
+}
+
+.main-list li div h4 {
+   color: rgb(0, 0, 0);
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 5px;
+}
+
+.main-list li div p {
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 25px;
+}
+
+.main-list li div img {
+   position: absolute;
+   top: 18px;
+   right: 28px;
+   width: 30px;
+   height: 30px;
+   margin: 0;
+   cursor: pointer;
+}
+
+/*============================= MAIN END =============================*/
